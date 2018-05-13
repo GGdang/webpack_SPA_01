@@ -2,6 +2,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const {VueLoaderPlugin} = require('vue-loader');
 const webpack = require("webpack");
+var GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
+
 module.exports = {
     entry: './src/main.js',
     output: {
@@ -11,6 +13,16 @@ module.exports = {
         
     },
     plugins: [
+        new GhPagesWebpackPlugin({
+            path: './dist',
+            options: {
+                message: 'Update Home Page',
+                user: {
+                    name: 'GGdang',
+                    email: 'ghost7021.hao@gmail.com'
+                }
+            }
+        }),
         new HtmlWebpackPlugin({
             template: './src/index.html'
         }),

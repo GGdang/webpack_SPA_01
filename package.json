@@ -12,7 +12,8 @@
     "dev": "webpack --watch",
     "start": "webpack-dev-server --watch --config webpack.config.js",
     "build": "webpack -p --hide-modules --config webpack.prod.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "public":"gh-pages -d ./dist"
   },
   "keywords": [],
   "author": "",
@@ -50,6 +51,7 @@
     "autoprefixer": "^8.4.1",
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
+    "gh-pages-webpack-plugin": "^1.0.2",
     "jquery": "^3.3.1",
     "lightbox2": "^2.10.0",
     "popper.js": "^1.14.3",
