@@ -20526,6 +20526,10 @@ var locales = {
     tw: _tw2.default
 };
 _vue2.default.use(_vueI18n2.default);
+var i18n = new _vueI18n2.default({
+    local: 'tw',
+    messages: messages
+});
 
 _vue2.default.use(_vueWow2.default);
 
