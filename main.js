@@ -20611,6 +20611,7 @@ new _vue2.default({
 
     router: router,
     store: _store2.default,
+    VueI18n: _vueI18n2.default,
     render: function render(h) {
         return h(_app2.default);
     }
