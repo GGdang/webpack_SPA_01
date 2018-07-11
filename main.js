@@ -20463,6 +20463,14 @@ var _vueI18n = __webpack_require__(176);
 
 var _vueI18n2 = _interopRequireDefault(_vueI18n);
 
+var _en = __webpack_require__(177);
+
+var _en2 = _interopRequireDefault(_en);
+
+var _tw = __webpack_require__(178);
+
+var _tw2 = _interopRequireDefault(_tw);
+
 __webpack_require__(115);
 
 __webpack_require__(117);
@@ -20513,7 +20521,13 @@ var _vueWow2 = _interopRequireDefault(_vueWow);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var locales = {
+    en: _en2.default,
+    tw: _tw2.default
+};
+
 _vue2.default.use(_vueWow2.default);
+
 
 _vue2.default.use(_vueRouter2.default);
 new _wowjs2.default.WOW().init();
@@ -36397,6 +36411,18 @@ VueI18n.version = '8.0.0';
 /* harmony default export */ __webpack_exports__["default"] = (VueI18n);
 
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(10)))
+
+/***/ }),
+/* 177 */
+/***/ (function(module, exports) {
+
+module.exports = {"Please_sign_in":"Please sign in","Email_address":"Email address","Password":"Password","Show_password":"Show Password","Sign_in":"Sign in"}
+
+/***/ }),
+/* 178 */
+/***/ (function(module, exports) {
+
+module.exports = {"Please_sign_in":"請登入。","Email_address":"輸入電子郵件","Password":"輸入密碼","Show_password":"顯示密碼","Sign_in":"登入"}
 
 /***/ })
 /******/ ]);
