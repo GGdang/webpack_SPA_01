@@ -20525,6 +20525,7 @@ var locales = {
     en: _en2.default,
     tw: _tw2.default
 };
+_vue2.default.use(_vueI18n2.default);
 
 _vue2.default.use(_vueWow2.default);
 
